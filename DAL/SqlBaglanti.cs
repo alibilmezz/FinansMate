@@ -13,7 +13,7 @@ namespace DAL
         public SqlConnection Baglanti() 
         {
             
-            SqlConnection baglan = new SqlConnection(@"Data Source=MAMIMONSTER\SQLEXPRESS;Initial Catalog=FinansMate;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+            SqlConnection baglan = new SqlConnection(@"Data Source=");
             baglan.Open();
             return baglan;
         }
