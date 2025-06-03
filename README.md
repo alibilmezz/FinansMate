@@ -5,7 +5,7 @@ Kişisel bütçe takibi ve harcama yönetimi uygulaması
 
 ## 📝 Proje Hakkında
 
-FinansMate, bireylerin gelir ve giderlerini takip etmelerine yardımcı olmak amacıyla geliştirilmiş bir kişisel finans yönetimi uygulamasıdır. Kullanıcı dostu arayüzü ve temel finansal analiz özellikleriyle, kişisel bütçe yönetimini kolaylaştırmayı hedefler.:contentReference[oaicite:44]{index=44}
+FinansMate, bireylerin gelir ve giderlerini takip etmelerine yardımcı olmak amacıyla geliştirilmiş bir kişisel finans yönetimi uygulamasıdır. Kullanıcı dostu arayüzü ve temel finansal analiz özellikleriyle, kişisel bütçe yönetimini kolaylaştırmayı hedefler.
 
 ## 🚀 Özellikler
 
