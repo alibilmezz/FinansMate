@@ -23,8 +23,14 @@ FinansMate, bireylerin gelir ve giderlerini takip etmelerine yardımcı olmak am
 - SQL Server
 
 ## 🖼️ Görseller
+
+### Anasayfa
 ![Anasayfa](https://github.com/user-attachments/assets/f8a976d3-053b-4866-8f18-477be3e70737)
+
+### Gelir-Gider İşlemleri Ekranı
 ![GelirGider](https://github.com/user-attachments/assets/90cc84f5-e016-4a06-9c4c-80c67434a305)
+
+### İstatistik-Analiz Ekranı
 ![İsatistik](https://github.com/user-attachments/assets/f457d5ad-1fbf-4e12-84b1-6f2736250bea)
 
 ## 👤 Geliştirici
