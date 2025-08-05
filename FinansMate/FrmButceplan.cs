@@ -50,7 +50,30 @@ namespace FinansMate
         {
             dateTimePicker1.Value = DateTime.Now;
             dateTimePicker2.Value = DateTime.Now;
-           
+            string url = "https://hasanadiguzel.com.tr/api/kurgetir";
+            //Döviz apisi ile güncel kurlar alınıp listelendi
+ using (HttpClient client = new HttpClient())
+ {
+     try
+     {
+         string json = await client.GetStringAsync(url);
+         JObject data = JObject.Parse(json);
+         var usdToTry = data["TCMB_AnlikKurBilgileri"]
+             .FirstOrDefault(c => c["CurrencyName"]?.ToString() == "US DOLLAR")?["ForexBuying"]?.ToString();
+         LblDolar.Text = $"₺{usdToTry}";
+         var eurToTry = data["TCMB_AnlikKurBilgileri"]
+            .FirstOrDefault(c => c["CurrencyName"]?.ToString() == "EURO")?["ForexBuying"]?.ToString();
+         LblEuro.Text = $"₺{eurToTry}";
+         var strToTry = data["TCMB_AnlikKurBilgileri"]
+           .FirstOrDefault(c => c["CurrencyName"]?.ToString() == "POUND STERLING")?["ForexBuying"]?.ToString();
+         LblGramAltın.Text = $"₺{strToTry}";
+
+     }
+     catch (Exception ex)
+     {
+         MessageBox.Show("Veri çekme hatası: " + ex.Message);
+     }
+ }
             
 
         }
